@@ -1,0 +1,13 @@
+/* This program calculates the length of a given string */
+#include<stdio.h>
+
+int string_length(char str[])
+{
+	
+	int count;
+
+	for(count = 0; str[count] != '\0'; count++)
+	;
+
+	return count;
+}

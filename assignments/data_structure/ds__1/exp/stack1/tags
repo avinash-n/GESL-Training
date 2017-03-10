@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DISPLAY	header/header.h	/^enum operation {PUSH = 1, POP, DISPLAY, EXIT};$/;"	e	enum:operation
+EXIT	header/header.h	/^enum operation {PUSH = 1, POP, DISPLAY, EXIT};$/;"	e	enum:operation
+MAX	header/header.h	4;"	d
+MIN	header/header.h	5;"	d
+POP	header/header.h	/^enum operation {PUSH = 1, POP, DISPLAY, EXIT};$/;"	e	enum:operation
+PUSH	header/header.h	/^enum operation {PUSH = 1, POP, DISPLAY, EXIT};$/;"	e	enum:operation
+display	source/display.c	/^void display(int *top)$/;"	f
+main	source/main.c	/^int main()$/;"	f
+operation	header/header.h	/^enum operation {PUSH = 1, POP, DISPLAY, EXIT};$/;"	g
+pop	source/pop.c	/^void pop(int *top)$/;"	f
+push	source/push.c	/^void push(int *top)$/;"	f
+stack	header/header.h	/^int stack[MAX];$/;"	v

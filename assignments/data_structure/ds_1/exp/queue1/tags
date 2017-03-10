@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_QUEUE_LENGTH	header_file/myheader.h	8;"	d
+MEM_ALLOC	header_file/myheader.h	10;"	d
+NUM_SIZE	header_file/myheader.h	9;"	d
+VALIDATE_MALLOC	header_file/myheader.h	11;"	d
+choice	header_file/myheader.h	/^enum choice {enqueue = 1, dequeue, display, clear};$/;"	g
+clear	header_file/myheader.h	/^enum choice {enqueue = 1, dequeue, display, clear};$/;"	e	enum:choice
+deq	source_file/dequeue.c	/^void deq(void)$/;"	f
+dequeue	header_file/myheader.h	/^enum choice {enqueue = 1, dequeue, display, clear};$/;"	e	enum:choice
+disp	source_file/display.c	/^void disp(void)$/;"	f
+display	header_file/myheader.h	/^enum choice {enqueue = 1, dequeue, display, clear};$/;"	e	enum:choice
+element	header_file/myheader.h	/^int element;$/;"	v
+enq	source_file/enqueue.c	/^void enq(void)$/;"	f
+enqueue	header_file/myheader.h	/^enum choice {enqueue = 1, dequeue, display, clear};$/;"	e	enum:choice
+front	header_file/myheader.h	/^int front;$/;"	v
+main	source_file/file1.c	/^int main()$/;"	f
+queue	header_file/myheader.h	/^int queue[MAX_QUEUE_LENGTH];$/;"	v
+rear	header_file/myheader.h	/^int rear;$/;"	v
+str_len	source_file/length.c	/^int str_len(char *f_str)$/;"	f
+validate	source_file/validate.c	/^int validate(char num[])$/;"	f

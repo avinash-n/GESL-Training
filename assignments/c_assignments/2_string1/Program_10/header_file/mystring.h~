@@ -1,0 +1,9 @@
+/* Header file */
+
+#include<stdio.h>
+
+void str_rev(char *, char *);		/* String reverse */
+
+int str_len(char *);			/* String length */
+
+int str_cmp(char *, char *);		/* String compare */

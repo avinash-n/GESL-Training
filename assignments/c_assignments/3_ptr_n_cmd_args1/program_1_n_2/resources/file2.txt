@@ -1,0 +1,2 @@
+
+ives the number of arguments in argc and the vector of arguments in argv, in the above the argument count would be two (The program name counts as the first argument) and the argument vector would contain [cat,file,null]. While the last element being a null-pointer.

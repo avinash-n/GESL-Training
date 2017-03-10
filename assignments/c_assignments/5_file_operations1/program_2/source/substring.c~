@@ -1,0 +1,18 @@
+
+
+
+		while(*(str + i) != '\0') {
+			while((*(str + i) != ' ') && (*(str + i) == '\n') {
+				*(words + j) = *(str + i) ;
+				i++;
+				j++;
+			}
+			*(words + j) = '\0';
+			if(strcmp(argv[2], words) == 0) {
+				printf("line number is : %d", l_c);
+				printf("line is: %s", str);
+				break;:w
+			}
+			j = 0;
+			i++;
+		}

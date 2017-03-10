@@ -1,0 +1,6 @@
+(*) Configurations available for a message queue
+	- mq_flags	: message call flags
+	- mq_maxmsg	: maximum number of messages
+	- mq_msgsize	: maximum message size
+	- mq_curmsgs	: number of messages currently queued
+	- __reserved[4]	: ignored for input, zeroed for output

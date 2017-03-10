@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define limit 5
+
+int queue[10];
+int r ;
+int f ;
+int count;
+void enqueue(int );
+void dequeue(int *);
+void display(int *);
+

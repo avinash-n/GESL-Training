@@ -1,0 +1,1 @@
+The arguments argc and argv of main is used as a way to send arguments to a program, the possibly most familiar way is to use the good ol' terminal where an user could type cat file. Here the word cat is a program that takes a file and outputs it to standard output (stdout).

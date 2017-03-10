@@ -1,0 +1,2 @@
+n POSIX-compliant systems (and Windows), there exists the possibility to use a third parameter char **envp which contains a vector of the programs environment variables. Further variations of the argument list of the main function exists, but I will not detail it here since it is non-standard.
+

@@ -1,0 +1,1 @@
+cmd_/home/avinash/training/assignments/os/mm/assign_4/dev1/kmod1.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/avinash/training/assignments/os/mm/assign_4/dev1/kmod1.ko /home/avinash/training/assignments/os/mm/assign_4/dev1/kmod1.o /home/avinash/training/assignments/os/mm/assign_4/dev1/kmod1.mod.o ;  true

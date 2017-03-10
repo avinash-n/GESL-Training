@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEADER_H	header/header.h	2;"	d
+MAX	header/header.h	8;"	d
+NODE	header/header.h	/^typedef struct NODE                                                             $/;"	s
+ST	header/header.h	/^}ST;     $/;"	t	typeref:struct:NODE
+after_at_number	source/after_at_number.c	/^int after_at_number(ST **head)$/;"	f
+after_at_pos	source/aftr_at_pos.c	/^int after_at_pos(ST **head)$/;"	f
+at_end	source/At_end.c	/^void at_end(ST **head)$/;"	f
+at_middle	source/at_middle.c	/^int at_middle(ST **head)$/;"	f
+at_penultimate_node	source/at_penultimate_node.c	/^int at_penultimate_node(ST **head)$/;"	f
+at_pos	source/at_pos.c	/^int at_pos(ST **head)$/;"	f
+before_at_number	source/befre_at_number.c	/^int before_at_number(ST **head)$/;"	f
+befre_at_pos	source/befre_at_pos.c	/^int befre_at_pos(ST **head)$/;"	f
+creat_node	source/creat_node.c	/^void creat_node(ST **head)$/;"	f
+data	header/header.h	/^	struct NODE *prev;                                                              char data;                                                                  $/;"	m	struct:NODE
+display	source/display.c	/^void display(ST **head)$/;"	f
+head	header/header.h	/^ST *head; $/;"	v
+insert_begin	source/begin.c	/^void insert_begin(ST **head)$/;"	f
+main	source/main.c	/^int main()$/;"	f
+next	header/header.h	/^    struct NODE *next;                                                          $/;"	m	struct:NODE	typeref:struct:NODE::NODE
+nodes	header/header.h	/^int nodes;$/;"	v
+prev	header/header.h	/^	struct NODE *prev;                                                              char data;                                                                  $/;"	m	struct:NODE	typeref:struct:NODE::NODE
