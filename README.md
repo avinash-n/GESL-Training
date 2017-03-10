@@ -1,2 +1,1 @@
-# work-1
-training
+# Welcome to my repo #
